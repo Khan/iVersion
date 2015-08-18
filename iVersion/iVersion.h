@@ -30,6 +30,8 @@
 //  3. This notice may not be removed or altered from any source distribution.
 //
 
+#ifdef KHAN_DOGFOOD
+
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wobjc-missing-property-synthesis"
@@ -176,3 +178,4 @@ typedef NS_ENUM(NSInteger, iVersionUpdatePriority)
 
 #pragma clang diagnostic pop
 
+#endif // KHAN_DOGFOOD

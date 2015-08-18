@@ -30,6 +30,8 @@
 //  3. This notice may not be removed or altered from any source distribution.
 //
 
+#ifdef KHAN_DOGFOOD
+
 #import "iVersion.h"
 
 
@@ -1405,3 +1407,5 @@ static NSString *const iVersionMacAppStoreURLFormat = @"macappstore://itunes.app
 #endif
 
 @end
+
+#endif // KHAN_DOGFOOD
