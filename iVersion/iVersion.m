@@ -30,7 +30,7 @@
 //  3. This notice may not be removed or altered from any source distribution.
 //
 
-#ifdef KHAN_DOGFOOD
+#if KHAN_DOGFOOD
 
 #import "iVersion.h"
 
